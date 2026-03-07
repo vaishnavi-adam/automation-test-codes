@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class SignUp_Rediffmail {
-
+ 
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shree\\Desktop\\Vaishnavi\\Automation Testing\\Driver\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		WebDriver dr=new ChromeDriver();

@@ -20,7 +20,7 @@ public class Login_Facebook {
 		Select month=new Select(dr.findElement(By.xpath("//select[@id='month']")));
 		month.selectByVisibleText("May");
 		Select year=new Select(dr.findElement(By.xpath("//select[@id='year']")));
-		year.selectByVisibleText("2020");
+		year.selectByVisibleText("2020"); 
 		
 		dr.findElement(By.xpath("//label[normalize-space()='Female']//input[@id='sex']")).click();
 		
